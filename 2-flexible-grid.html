@@ -77,17 +77,52 @@
 
         .blog .main {
             float: left;
-            height: 683px;
+            height: 655px;
             width: 62.8888889%; /* width: 566px; 556 / 900 */
             background-color: purple;
         }
+        
         .blog .other {
             float: right;
-            height: 683px;
+            height: 655px;
             width: 36.7777778%; /* 331px / 900px */
-            background-color: rgb(47, 196, 255);
+            background-color: rgb(255, 238, 0);
         }
-
+        .recent-entries {
+            height: 655px;
+            margin: 0 auto;
+            width: 69.7885196%; /* 231px / 331px */
+            background-color: yellowgreen;
+        }
+        .lede {
+            padding: 0.8em 5.33333333%; /* 48px / 900px */
+        }
+        .article {
+            height: 575px;
+            /* margin: 0 auto; */
+            width: 84.5323741%; /* 231px / 331px */
+            padding: 40px 8.48056537%;
+            background-color: rgb(52, 177, 166);
+        }
+        .date {
+            float: left;
+            height: 14.68085106%; /* 69px / 470px */
+            width: 14.68085106%; /* 69px / 470px */
+            margin-left: -17.2340425531%; /* 81px / 470px */
+            background-color: blue;
+            border-radius: 5%;
+        }
+        .date h1 {
+            color: white;
+            font-size: 2.5em;
+            text-align: center;
+            padding-top: 14%;
+        }
+        .date p {
+            color: white;
+            font-size: 0.7em;
+            text-align: center;
+        }
     </style>
 </head>
 <body>
@@ -95,11 +130,19 @@
         <div class="blog section">
             <h1 class="lede">Recently in<a href="#">The Bot » Blog</a></h1>
             <div class="main">
-
+                <div class="article">
+                    <div class="date">
+                        <h1>10</h1>
+                        <p>October</p>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi error quis eius, aut temporibus dignissimos illum mollitia sit soluta placeat laudantium culpa quos, velit voluptatum unde, doloribus officiis reiciendis neque?</p>
+                </div>
             </div>
             <!-- end .main -->
             <div class="other">
+                <div class="recent-entries">
 
+                </div>
             </div>
             <!-- end .other -->
         </div>
